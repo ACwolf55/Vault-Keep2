@@ -1,0 +1,29 @@
+.collection_title {
+    margin: 60px;
+    margin-top: 150px;
+    padding: 20px;
+    font-size: 50px;
+    border-bottom: 4px black solid;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.dropdown_label {
+    margin: 10px;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+.dropdown_box {
+    margin: 10px;
+    margin-right: 140px;
+    width: 200px;
+}
+
+.dropdown_box:hover {
+    cursor: pointer;
+}
