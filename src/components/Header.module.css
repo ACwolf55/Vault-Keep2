@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: lightcoral;
+    border-bottom: 2px black solid;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+  }
+
+  .site_name_link {
+    text-decoration: none;
+    color: black;
+    font-size: 55px;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 2em;
+    font-weight: bolder;
+  }
+
+  .site_name:hover {
+    cursor: pointer;
+  }
+  
+  .login_btn {
+    padding: 12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 2vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px; 
+    text-decoration: none;
+    border: 1px black solid;
+  }
+
+  .login_btn:hover {  
+    cursor: pointer;
+    transform: scale(1.02, 1.02);
+    box-shadow: 4px 4px;
+  }
+
+  .login_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+  }
+
+  .logout_btn {
+    padding: 12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 2vw;
+    margin-left: 180px;
+    margin-right: 50px;
+    border: 2px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px; 
+    text-decoration: none;
+    border: 1px black solid;
+  }
+
+  .logout_btn:hover {
+    cursor: pointer;
+    transform: scale(1.02, 1.02);
+    box-shadow: 4px 4px;
+  }
+
+  .logout_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+  }
+
+  .header_btns {
+    top: 0;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    position: fixed;
+    right: 0;
+  }
+
+  .home_btn {
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 12px;
+    margin-right: 280px;
+    margin-top: 2px;
+    background-color: lightsteelblue;
+    box-shadow: 3px 3px;
+    border-radius: 20px;
+    border: 1px black solid;
+  }
+
+  .collection_btn {
+    padding: 12px;
+    margin: 12px;
+    margin-right: 160px;
+    margin-top: 2px;
+    background-color: lightsteelblue;
+    box-shadow: 3px 3px;
+    border-radius: 20px;
+    border: 1px black solid;
+  }
+
+  .bookshelf_btn {
+    padding: 12px;
+    margin: 12px;
+    margin-right: 40px;
+    margin-top: 2px;
+    background-color: lightsteelblue;
+    box-shadow: 3px 3px;
+    border-radius: 20px;
+    border: 1px black solid;
+  }
+    
+  .home_btn:hover {
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+    box-shadow: 4px 4px;
+  }
+
+  .home_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+  }
+
+  .collection_btn:hover {
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+    box-shadow: 4px 4px;
+  }
+
+  .collection_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+  }
+    
+  .bookshelf_btn:hover {
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+    box-shadow: 4px 4px;
+  }
+
+  .bookshelf_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+  }
+
+  .logged_in {
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 2vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+  }

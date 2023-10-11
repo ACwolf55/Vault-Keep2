@@ -1,0 +1,71 @@
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    position: center;
+}
+
+.no_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vw;
+    text-decoration: none;
+    width: 800px;
+}
+
+.login_btn {
+    padding: 12px;
+    position: inherit;
+    border: 2px white solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px; 
+    border: 1px black solid;
+}
+
+.login_btn:hover {  
+    cursor: pointer;
+    transform: scale(1.02, 1.02);
+    box-shadow: 4px 4px;
+}
+
+.login_btn:active {
+    cursor: pointer;
+    transform: scale(1, 1);
+    box-shadow: 3px 3px;
+}
+
+.collection_title {
+    margin: 60px;
+    margin-top: 150px;
+    padding: 20px;
+    font-size: 50px;
+    border-bottom: 4px black solid;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.dropdown_label {
+    margin: 10px;
+    margin-right: 200px;
+    font-size: 20px;
+}
+
+.dropdown_box {
+    margin: 10px;
+    margin-right: 140px;
+    width: 200px;
+}
+
+.dropdown_box:hover {
+    cursor: pointer;
+}
